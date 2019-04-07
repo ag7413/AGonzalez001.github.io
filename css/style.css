@@ -5,9 +5,12 @@
 html, body {
 
 }
-.title area {
+#mainContainer {
+                        /* Try and make it centered */
+}
+#titleArea {
 
 }
-.button area {
+#buttonArea {
 
 }
