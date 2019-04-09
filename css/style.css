@@ -8,10 +8,10 @@ html, body {
     width: 100%;
 }
 .fancyFont {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Mali', cursive;
 }
 .normalFont {
-    font-family: 'Mali', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 #mainContainer {
 
