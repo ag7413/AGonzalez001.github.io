@@ -6,7 +6,7 @@ html, body {
 
 }
 #mainContainer {
-                        /* Try and make it centered */
+    height: 100%;
 }
 #titleArea {
 
