@@ -11,14 +11,37 @@ html, body {
     font-family: 'Mali', cursive;
 }
 .normalFont {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
+}
+.white {
+    color: white;
+}
+.yellow {
+    color: yellow;
+}
+.noDec {
+    text-decoration: none;
+}
+.center {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.left {
+    text-align: left;
+}
+.background {
+    height: 100%;
+    background-color: navy;
 }
 #mainContainer {
-
+    height: 100%;
 }
 #titleArea {
-
+    height: 100%;
+}
+#name {
+    width: 100%;
+    font-size: 5.2em;
 }
 #buttonArea {
-
-}
