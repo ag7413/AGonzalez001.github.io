@@ -77,3 +77,21 @@ html,body {
     text-decoration: none;
     background: rgba(0,0,0,0.8)
 }
+
+#downloads {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    margin: 20px auto;
+    color: rgba(200,255,255,1);
+    border: 2px solid;
+    padding: 1em;
+    width: 11em;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(0,0,0,0.8)
+}
