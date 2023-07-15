@@ -36,6 +36,24 @@ body {
     height: 4em;
 }
 
+#back {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    margin: 12px auto;
+    color: rgba(200,255,255,1);
+    border: 2px solid;
+    padding: 0.5em 0em;
+    width: 5em;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1em;
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(0,0,0,0.8)
+}
+
 .rounded_corners {
     border-radius: 25px;
 }

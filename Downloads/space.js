@@ -40,28 +40,5 @@ function drawStars() {
         c.fillRect(t, e, a, a),
         c.fillStyle = "rgba(200, 255, 255, " + star.o + ")"
 }
-// function warpTimeout() {
-//     warp = 0,
-//     setTimeout(messageTimeout, 1e3),
-//     setTimeout(animationTimeout, 2e3)
-// }
-// function messageTimeout() {
-//     document.getElementById("message").remove()
-// }
-// function animationTimeout() {
-//     animate = !1,
-//     setTimeout(NothingTiming, 1e3) // Calls NothingTiming after 1 Second
-// }
-// function NothingTiming() {
-//     document.getElementById("nothing").style.display = "inline-block"
-// }
 initializeStars(),
-// document.getElementById("warp").addEventListener("click", function(t) {
-//     window.warp = 1 == window.warp ? 0 : 1,
-//     document.getElementById("warp").remove(),
-//     //document.getElementById("message").style.display = "inline-block",
-//     setTimeout(warpTimeout, 4e3),
-//     window.c.clearRect(0, 0, window.canvas.width, window.canvas.height),
-//     executeFrame()
-// }),
 executeFrame();
