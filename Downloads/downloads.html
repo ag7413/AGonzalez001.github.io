@@ -1,24 +1,129 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+        <!-- meta tags -->
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta http-equiv='cache-control' content='no-cache'> 
         <meta http-equiv='expires' content='0'> 
         <meta http-equiv='pragma' content='no-cache'>
-        <link rel="stylesheet" href="downloads.css">
+
+        <!-- links to style sheets -->
+        <link rel="stylesheet" href="notion.css">
         <link rel="stylesheet" href="space.css">
+        <link rel="stylesheet" href="extras.css">
         <title>Alejandro's Space</title>
     </head>
     
     <body>
+        <!-- space canvas -->
         <canvas id="space"></canvas>
+
+        <!-- space buffer -->
         <div class="buffer">
+            <!-- back button -->
             <a href="../index.html" id="back">Back</a>
         </div>
-        <div class="page_edge rounded_corners"><article id="04a31c9d-0685-4f05-8434-54cc4a04a4c9" class="page sans"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1529148482759-b35b25c5f217?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 50%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">📖</span></div><h1 class="page-title">Downloads Page</h1><p class="page-description"></p></header><div class="page-body"><h1 id="53b4bc3c-04e0-4b69-af30-7ee8d9c8142c" class=""><mark class="highlight-purple">Robotics Design Team</mark></h1><hr id="ae768292-6f7d-422b-b762-d06e7f08c580"/><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3">Altium Basics Training</summary><div class="indented"><details open=""><summary style="font-weight:600;font-size:1.25em;line-height:1.3">Components</summary><div class="indented"><table id="dfc8b009-bac2-46a3-8c72-7b3d7e6bacae" class="simple-table"><tbody><tr id="a31198cf-0e53-4b02-b6ca-f2e5b86b1512"><td id="ohDq" class="">Name</td><td id="gjpw" class="">Size</td><td id="r&gt;KM" class="" style="width:301px">Description</td></tr><tr id="4261d96a-3cee-41ba-9108-1c0d47f2153a"><td id="ohDq" class="">Coin Cell Battery Holder</td><td id="gjpw" class="">xx MB</td><td id="r&gt;KM" class="" style="width:301px">A 20mm SMD holder for a coin cell battery</td></tr><tr id="2b172be9-d0d0-4655-9fb9-f719c284cf4c"><td id="ohDq" class="">Push Button</td><td id="gjpw" class="">xx MB</td><td id="r&gt;KM" class="" style="width:301px">A general purpose, tactile push button</td></tr><tr id="3ccaa785-5f2d-4acf-977a-731721b1e5ef"><td id="ohDq" class="">LED</td><td id="gjpw" class="">xx MB</td><td id="r&gt;KM" class="" style="width:301px">A general purpose, surface-mount LED</td></tr><tr id="6e6298b2-376c-4353-b7ba-007ec4c39423"><td id="ohDq" class="">XX Ohm Resistor</td><td id="gjpw" class="">xx MB</td><td id="r&gt;KM" class="" style="width:301px">A general purpose, surface-mount resistor</td></tr></tbody></table><figure class="block-color-purple_background callout rounded_corners" style="white-space:pre-wrap;display:flex" id="3d6e9c58-b290-430a-9fcb-720e87eee1e2"><div style="font-size:1.5em"><span class="icon">✏️</span></div><div style="width:100%">Note:
-        These components are usually combined into a single library file, but for learning purposes, I separated each component.</div></figure></div></details><details open=""><summary style="font-weight:600;font-size:1.25em;line-height:1.3">DXF</summary><div class="indented"><table id="bee27e2f-1418-4ecd-81d3-631960e2b06b" class="simple-table"><tbody><tr id="d09b29ef-1c8b-41f0-8375-524ce3b7e569"><td id="zEpa" class="" style="width:188.390625px"><strong>Name</strong></td><td id="{h]&lt;" class=""><strong>Size</strong></td><td id="he]`" class="" style="width:289px"><strong>Description</strong></td></tr><tr id="4b7c47fb-3a40-4e9c-816c-1528dcfbc882"><td id="zEpa" class="" style="width:188.390625px">Board_Outline.dxf</td><td id="{h]&lt;" class="">xx MB</td><td id="he]`" class="" style="width:289px">A board outline file</td></tr><tr id="9063dd28-f4a5-4677-b895-b9205396430a"><td id="zEpa" class="" style="width:188.390625px">Overlay_Artwork.dxf</td><td id="{h]&lt;" class="">xx MB</td><td id="he]`" class="" style="width:289px">A silkscreen artwork file</td></tr></tbody></table></div></details><p id="ad2e9090-53dc-419b-ae71-8983586ef24e" class=""></p></div></details></div></article>
+
+        <!-- notion content -->
+        <div class="container rounded_corners">
+            <article id="04a31c9d-0685-4f05-8434-54cc4a04a4c9" class="page sans">
+                <header>
+                <img class="page-cover-image" src="https://images.unsplash.com/photo-1529148482759-b35b25c5f217?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 50%" />
+                <div class="page-header-icon page-header-icon-with-cover">
+                    <span class="icon">📖</span>
+                </div>
+                <h1 class="page-title">Downloads Page</h1>
+                <p class="page-description"></p>
+                </header>
+                <div class="page-body">
+                    <h1 id="53b4bc3c-04e0-4b69-af30-7ee8d9c8142c" class="">
+                        <mark class="highlight-purple">Robotics Design Team</mark>
+                    </h1>
+                    <hr id="ae768292-6f7d-422b-b762-d06e7f08c580" />
+                    <details open="">
+                        <summary style="font-weight:600;font-size:1.5em;line-height:1.3">Altium Basics Training</summary>
+                        <div class="indented">
+                            <details open="">
+                                <summary style="font-weight:600;font-size:1.25em;line-height:1.3">Components</summary>
+                                <div class="indented">
+                                    <table id="dfc8b009-bac2-46a3-8c72-7b3d7e6bacae" class="simple-table">
+                                        <tbody>
+                                            <tr id="a31198cf-0e53-4b02-b6ca-f2e5b86b1512">
+                                                <td id="ohDq" class="">Name</td>
+                                                <td id="gjpw" class="">Size</td>
+                                                <td id="r&gt;KM" class="" style="width:301px">Description</td>
+                                            </tr>
+                                            <tr id="4261d96a-3cee-41ba-9108-1c0d47f2153a">
+                                                <td id="ohDq" class=""><a href="assets/Components/Coin_Cell_Battery_Holder.zip">Coin Cell Battery</a></td>
+                                                <td id="gjpw" class="">xx MB</td>
+                                                <td id="r&gt;KM" class="" style="width:301px">A 20mm SMD holder for a coin cell battery</td>
+                                            </tr>
+                                            <tr id="2b172be9-d0d0-4655-9fb9-f719c284cf4c">
+                                                <td id="ohDq" class=""><a href="assets/Components/Tactile_Push_Button.zip">Push Button</a></td>
+                                                <td id="gjpw" class="">xx MB</td>
+                                                <td id="r&gt;KM" class="" style="width:301px">A general purpose, tactile push button</td>
+                                            </tr>
+                                            <tr id="3ccaa785-5f2d-4acf-977a-731721b1e5ef">
+                                                <td id="ohDq" class=""><a href="assets/Components/LED.zip">LED</a></td>
+                                                <td id="gjpw" class="">xx MB</td>
+                                                <td id="r&gt;KM" class="" style="width:301px">A general purpose, surface-mount LED</td>
+                                            </tr>
+                                            <tr id="6e6298b2-376c-4353-b7ba-007ec4c39423">
+                                                <td id="ohDq" class=""><a href="assets/Components/160_Ohm_Resistor.zip">160 Ohm resistor</a></td>
+                                                <td id="gjpw" class="">xx MB</td>
+                                                <td id="r&gt;KM" class="" style="width:301px">A general purpose, surface-mount resistor</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <figure class="block-color-purple_background callout rounded_corners" style="display:flex" id="3d6e9c58-b290-430a-9fcb-720e87eee1e2">
+                                        <div style="font-size:1.5em">
+                                            <span class="icon">✏️</span>
+                                        </div>
+                                        <div style="width:100%">Note: These components are usually combined into a single library file, but for learning purposes, I separated each component.</div>
+                                    </figure>
+                                </div>
+                            </details>
+                            <details open="">
+                                <summary style="font-weight:600;font-size:1.25em;line-height:1.3">DXF</summary>
+                                <div class="indented">
+                                    <table id="bee27e2f-1418-4ecd-81d3-631960e2b06b" class="simple-table">
+                                        <tbody>
+                                            <tr id="d09b29ef-1c8b-41f0-8375-524ce3b7e569">
+                                                <td id="zEpa" class="" style="width:188.390625px">
+                                                    <strong>Name</strong>
+                                                </td>
+                                                <td id="{h]&lt;" class="">
+                                                    <strong>Size</strong>
+                                                </td>
+                                                <td id="he]`" class="" style="width:289px">
+                                                    <strong>Description</strong>
+                                                </td>
+                                            </tr>
+                                            <tr id="4b7c47fb-3a40-4e9c-816c-1528dcfbc882">
+                                                <td id="zEpa" class="" style="width:188.390625px"><a href="assets/DXF/Board_Outline.DXF">Board_Outline.dxf</a></td>
+                                                <td id="{h]&lt;" class="">xx MB</td>
+                                                <td id="he]`" class="" style="width:289px">A board outline file</td>
+                                            </tr>
+                                            <tr id="9063dd28-f4a5-4677-b895-b9205396430a">
+                                                <td id="zEpa" class="" style="width:188.390625px"><a href="assets/DXF/Overlay_Artwork.DXF">Overlay_Artwork.dxf</a></td>
+                                                <td id="{h]&lt;" class="">xx MB</td>
+                                                <td id="he]`" class="" style="width:289px">A silkscreen artwork file</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </details>
+                            <p id="ad2e9090-53dc-419b-ae71-8983586ef24e" class=""></p>
+                        </div>
+                    </details>
+                </div>
+            </article>
         </div>
+
+        <!-- space buffer -->
         <div class="buffer"></div>
+
+        <!-- links to scripts -->
         <script src="space.js"></script>
     </body>
 </html>
